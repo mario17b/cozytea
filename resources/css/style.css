@@ -1,0 +1,36 @@
+/* univerisal sytle */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header styles */
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  flex-grow: 1;
+  background-color: pink;
+}
+
+nav {
+  display: flex;
+  flex-grow: .5;
+}
+
+nav a {
+  padding-right: 12px;
+}
+
+#logo {
+  padding-left: 10px;
+  height: 50px;
+  padding-right: 50px;
+}
