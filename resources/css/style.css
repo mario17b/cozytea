@@ -1,6 +1,6 @@
 /* univerisal sytle */
 
-html body {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -16,7 +16,7 @@ html body {
 
 body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -29,6 +29,7 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   position: fixed;
+  order: 1;
 }
 
 
@@ -47,22 +48,81 @@ a {
   color: seashell;
   text-decoration: underline;
 }
-/* main image Our Mission */
+/* wrapper */
 
-.row1 {
-  border: 1px solid seashell;
-  width: 1200px;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.mission {
+  order: 2;
   height: 700px;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  justify-content: center;
+  margin: 70px auto 0 auto;
+  align-items: center;
   background-image: url("./pics/background.jpg");
 }
 
-h2 {
+span {
+  width: 1200px;
+  background-color: black;
+}
+
+.month {
+  order: 3;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
   justify-content: center;
+  margin: auto;
   align-items: center;
 }
 
-section {
+.heading {
   display: flex;
+  flex-direction: column;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+.locations {
+  order: 4;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  justify-content: center;
   margin: auto;
-  margin-top: 90px;
+  align-items: center;
+  background-image: url("./pics/location.jpg");
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  padding-right: 40px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  background-color: black;
 }
