@@ -68,6 +68,10 @@ a {
   background-image: url("./pics/background.jpg");
 }
 
+.title {
+  background-color: black;
+  width: 1200px;
+}
 span {
   width: 1200px;
   background-color: black;
