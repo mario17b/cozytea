@@ -95,18 +95,32 @@ span {
   flex-direction: column;
 }
 
+.heading h2 {
+  padding-top: 30px;
+}
+
+.heading h4 {
+  padding-bottom: 20px;
+}
+
+.heading span {
+  height: 90px;
+}
+
 .teas {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 .teas img {
   height: 200px;
   width: 300px;
-  padding: 20px;
+  padding-right: 20px;
 }
+
 /* Locations Section */
 
 .locations {
